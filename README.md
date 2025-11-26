@@ -11,6 +11,8 @@ bzdAPI.DrawFillCircle({x=0,y=0},<半径>10,<填充色>{r=255,g=255,b=255},<边�
 bzdAPI.DrawFillRectangle({x=10,y=20},{x=100,y=200},{r=255,g=255,b=100},{r=255,g=100,b=255})
 ```
 ## 交互相关function
+- 虚拟键码详情请看 https://learn.microsoft.com/zh-cn/windows/win32/inputdev/virtual-key-codes
+- 或 https://blog.csdn.net/aiauw80822/article/details/102040721
 ```lua
 --检测按键按下（按下按键只返回一次true,需要松开按键才能继续）
 bzdAPI.GetKeyPress_oneR(<虚拟键码>0x01,<检测模式,0为窗口活动才检测按键,1为程序可以检测到任何时候的按键>0)
