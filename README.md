@@ -1,5 +1,5 @@
 # LUA程序入口
-- 在`EditorCore.lua`里
+- 在`EditorCore.lua`
 - `function update()`会被C++程序在每一帧调用
 - 在update()外的会在循环开始前被执行
 # BzdAPI
